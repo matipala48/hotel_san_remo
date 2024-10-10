@@ -1,0 +1,178 @@
+body{
+	margin:0;
+}
+
+p{
+	color:grey;
+	line-height:30px;
+}
+
+h1{
+	font-size:30px;
+	text-align:center;
+	color:#730800;
+}
+
+h2{
+	font-size:22px;
+	text-align:center;
+	color:#947100;
+}
+
+aside img{
+	width:33%;
+	height:auto;
+	flex-wrap:wrap;
+}
+
+header{
+	width:100%;
+	height:auto;
+	background:rgb(0,0,0);
+	background:linear-gradient(0deg, rgba(100,0,0,1)0%, rgba(0,0,0,1) 100%);
+	align-content:space-around;
+}
+
+div{
+
+	display:flex;	
+	height:auto;
+
+}
+
+nav{
+	width:80%;
+	height:auto;
+	display:flex;
+	color:#947100;
+	align-items:center;
+	margin-left:50px;
+    justify-content:flex-end;
+}
+
+.nav{
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	justify-items:center;
+}
+
+.logo{
+	width:
+}
+
+nav a:link{
+	color:#e0c369;
+	font-size:18px;
+	font-weight:;
+	text-decoration:none;
+	width:20%;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	transition: all 0.2s;
+}
+
+nav a:hover{
+	height:100%;
+	font-size:20px;
+}
+
+nav a:visited{
+	color:#e0c369;
+}
+
+main{
+	width:auto;
+	height:auto;
+	display:flex;
+	justify-content:space-around;
+	align-content:center;
+	justify-items:space-evenly;
+	align-items:center;
+	flex-wrap:wrap;
+}
+
+section{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-content:center;
+	justify-items:center;
+	align-items:center;
+}
+
+.aside{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-evenly;
+	padding:1%;
+	margin-top:20px;
+}
+
+footer{
+	width:100%;
+	height:auto;
+	background:rgb(0,0,0);
+	background:linear-gradient(0deg, rgba(0,0,0,1)0%, rgba(100,0,0,1) 100%);
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+footer p{
+	flex-direction:column;
+}
+
+.slider {
+	width:100%;
+	height:100%;
+	display:flex;
+    justify-content:center;
+}
+
+.tar{
+	width:270px;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	border-width:3px;
+	border-style:solid;
+	border-color:#cfcfcf;
+	border-radius:10px;
+	justify-content:center;
+	align-content:center;
+	justify-items:center;
+	align-items:center;
+	padding:1%;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+ 
+ @media screen and (max-width:800px)
+{
+section, nav, footer, header, aside{
+	width:100%;
+	flex-direction:column;
+	justify-content:center;
+	margin:auto;
+	display:flex;	
+}
+.logo{
+	margin:auto;
+}
+img{
+	display:flex;	
+	height:auto;
+	weight:auto;	
+}
+
+
